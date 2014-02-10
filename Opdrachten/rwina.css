@@ -1,0 +1,173 @@
+*, html  { margin: 0px; 
+	       padding: 0px; 
+	       border: 0px;
+
+}
+
+body{background: #000;
+	overflow: hidden;
+	-webkit-animation-name: pulse;
+	-webkit-animation-duration: 10s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes pulse {
+	from {
+		background: #000;
+	}
+	25% {
+		background-color: #003;
+	}
+	50% {
+		background-color: #030;
+	}
+	to {
+		background: #000;
+	}
+}
+header { background: #000;
+
+       
+        width: 100%;  
+        overflow: hidden;
+	-webkit-animation-name: pulse;
+	-webkit-animation-duration: 10s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes pulse {
+	from {
+		background: #000;
+	}
+	25% {
+		background-color: #003;
+	}
+	50% {
+		background-color: #030;
+	}
+	to {
+		background: #000;
+	}
+   
+
+}
+
+
+.logo{	padding:5px;
+		width:250px;}
+
+.slider {width:50px;
+	background :url(static/ Sliderbg.jpg);
+		   
+}
+
+
+
+
+
+
+#wrapper { width:70%;
+           
+           margin-left:15%;
+           margin-top: 2%;
+           
+
+           font-family: 'Bitter', sans-serif , bold;
+           background-color:white;
+
+
+        
+
+          
+         }
+
+
+nav ul {list-style: none;
+	    width: 100%;
+	    
+
+
+	    background-color:tomato;
+	    margin-left: 0px;
+
+
+
+}
+
+nav li a{display: inline;
+
+
+
+	      
+
+}
+
+nav ul li a{display: block;
+			text-align:center;
+	        float: ;
+	        width: 90%;
+	        margin-right: 1em;
+	        font-weight: bold;
+	        height: 2.3em;
+	        line-height:2.5em;
+		    padding-left: 10px;
+	        text-decoration: none;
+	    
+	        color: black;
+	        font-size: 24px;
+	        background-color: white;
+
+
+	        -webkit-transition: all 500ms cubic-bezier(0.215, 0.610, 0.355, 1.000); 
+   			-moz-transition: all 500ms cubic-bezier(0.215, 0.610, 0.355, 1.000); 
+     		-o-transition: all 500ms cubic-bezier(0.215, 0.610, 0.355, 1.000); 
+            transition: all 500ms cubic-bezier(0.215, 0.610, 0.355, 1.000); /* easeOutCubic */
+	        
+
+}
+
+nav ul li a:hover {background: tomato;
+				   color: white;
+				   width: 99%;
+				   text-align: center;
+				   text-decoration: none;
+
+
+				   
+				   }
+
+
+
+
+
+
+article{
+width:90%;
+	margin-top:15px;
+	padding-top:250px;
+	margin-left:4%;
+	
+}
+
+main{background-color: white;
+	width: 75%;
+	height:600px;
+	float:left;
+	
+}
+
+aside{
+
+	min-width:25%;
+	height:600px;
+	float:right;
+background-color:tomato;}
+
+footer{position: relative;
+	
+	height: 175px;
+	
+	background-color:black;
+	clear:both;} 
